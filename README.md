@@ -21,6 +21,12 @@ docker run -it --name <virtual env name> -v "$(pwd)"/:/app conda/miniconda3
 
 To restart the last container exited
 docker start -a -i `docker ps -q -l`
+
+To see processes running in container
+docker container top <virtual env name>
+
+To see stream of stats
+docker container stats <virtual env name>
 ```
 
 ### In Container
