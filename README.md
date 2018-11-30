@@ -19,14 +19,20 @@ Execute in directory containing Python source.
 docker pull conda/miniconda3
 docker run -it --name <virtual env name> -v "$(pwd)"/:/app conda/miniconda3
 
-To restart the last container exited
+To restart the last venv exited
 docker start -a -i `docker ps -q -l`
 
-To see processes running in container
+To see processes venv in container
 docker container top <virtual env name>
 
 To see stream of stats
 docker container stats <virtual env name>
+
+To remove all stopped venv
+docker container prune
+
+To remove a stopped venv
+docker container rm <virtual env name>
 ```
 
 ### In Container
