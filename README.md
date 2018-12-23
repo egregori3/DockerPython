@@ -1,6 +1,16 @@
 # DockerPython
 Instructions for using Docker as a virtual environment for Python.
 
+## Docker terms
+
+https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/container-docker-introduction/docker-terminology
+
+**Dockerfile:** A text file that contains instructions for how to build a Docker image.
+**Build:** The action of building a container image based on the information and context provided by its Dockerfile, plus additional files in the folder where the image is built.
+**Container image:** A package with all the dependencies and information needed to create a container. An image is immutable once it has been created.
+**Container:** An instance of a Docker image.
+
+
 ## Docker Cheat Sheet
 
 https://github.com/wsargent/docker-cheat-sheet
