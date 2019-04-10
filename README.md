@@ -1,3 +1,8 @@
+# Avoid PIP and CONDA together
+
+https://www.anaconda.com/using-pip-in-a-conda-environment/
+https://github.com/ContinuumIO/anaconda-issues/issues/1429
+
 # DockerPython
 Instructions for using Docker as a virtual environment for Python.
 
